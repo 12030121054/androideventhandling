@@ -16,4 +16,16 @@
         android:layout_below="@+id/textView1"
         android:text="Click here" />
 
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnclick"
+        android:layout_below="@+id/btnclick"
+        android:layout_marginTop="26dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
 </RelativeLayout>
