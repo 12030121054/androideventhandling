@@ -16,7 +16,12 @@
         <activity
             android:name="com.example.eventhandling.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
+          
+        </activity>
+        <activity
+            android:name="com.example.eventhandling.CheckChangeListener"
+            android:label="@string/title_activity_check_change_listener" >
+              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
